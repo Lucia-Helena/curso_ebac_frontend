@@ -23,13 +23,18 @@ header li {
 }
 
 header li a {
-    color: blue;
+    color: white;
     text-decoration: none;
     margin-left: 16px;
+    
+}
+
+header li :hover {
+    text-decoration: underline;
 }
 
 .container {
-    width: 1366px;
+    width: 970px;
     margin: 0 auto;
 }
 
@@ -105,3 +110,21 @@ section h2 {
 #economy .articles article a {
     background-color: rgba(255, 165, 0);
 }
+
+#technology {
+    background-color: rgba(243, 183, 124, 0.705);
+}
+
+#technology .articles article a{
+    background-color: rgb(245, 155, 64);
+}
+
+#entertainment {
+    background-color: rgb(193, 229, 241)
+}
+
+#entertainment .articles article a {
+    background-color: rgb(20, 180, 238);
+}
+
+
