@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício JS</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Formulário</h1>
-        <form id="form-number">
-            <input type="number" required placeholder="Número A">
-            <input type="number" required placeholder="Número B">
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-    <script src="./main.js"></script>
+    <h1>Resevar vaga</h1>
+    <form id="form">
+        <div class="container">
+            <div class="box">
+                <input id="Input1" type="number" placeholder="Carros">
+                <input id="Input2" type="number" placeholder="Vagas">
+                <button id="button">Reservar</button>
+                <p id="reserved">Sua vaga foi reservada!</p>
+                <p id="error">Não foi possivel reservar sua vaga!</p>
+            </div>
+        </div>
+    </form>
 </body>
+<script src="./main.js"></script>
 </html>
