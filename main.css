@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+ body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #ff0 50%, #333 50%);
+ } 
+
+ #container {
+    height: 450px;
+    width: 280px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    overflow-y: auto;
+
+}
+
+header h1 {
+    padding-bottom: 10px;
+}
+
+#input{
+    padding: 2px;
+    border-radius: 3px;
+    color:#000;
+    
+}
+
+#btn {
+    padding: 2px;
+    border-radius: 3px;
+    background: #b3adad;
+    cursor: pointer;
+}
+
+.list li{
+    background: #eee;
+    color: #333;
+    height: 30px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+.riscarTarefa{
+    text-decoration:line-through;
+    
+}
+
+ 
+    
+ 
+
