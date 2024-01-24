@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1360px;
+    width: 100%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+input, button{
+    outline: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    padding: 6px 4px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#complemento, #numero-casa {
+    display: inline;
+    width: 198px;
+}
+
+
+button {
+    background-color: rgb(52, 226, 52);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(105, 255, 105);
+}
