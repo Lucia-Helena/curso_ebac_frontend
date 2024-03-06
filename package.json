@@ -5,14 +5,16 @@
   "main": "gulpfile.js",
   "scripts": {
     "gulp": "gulp",
+    "sass": "sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^9.0.0",
-    "imagemin-jpeg-recompress": "^7.1.0",
-    "imagemin-pngquant": "^9.0.2"
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^9.0.0"
   }
 }
